@@ -8,7 +8,7 @@ import Bottom_Section from './Bottom_Section'
 
 export default function NetFlix_app({navigation}) {
           const[data,setdata]=useState([]);
-          const api_key="c5d6e32a3055a6c4d1e42efef2ab2ddf";
+          const api_key='{your_api_key}';
           const[main_search,setmainsearch]=useState("movie/popular?");
           const[horizontal_orientation,setHorizontal_orientation]=useState(true);
           useEffect(()=>{
